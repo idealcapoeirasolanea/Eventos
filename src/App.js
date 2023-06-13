@@ -8,11 +8,9 @@ function App() {
         logGa('home_page_visit');
     }, []);
 
-    return (
-        <div>
+    return (<div>
             <BaseLayout/>
-        </div>
-    );
+        </div>);
 }
 
 export default App;
