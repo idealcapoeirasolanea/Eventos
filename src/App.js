@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import './App.module.scss';
 import BaseLayout from './components/BaseLayout';
-import {BrowserRouter, HashRouter} from 'react-router-dom';
+import { BrowserRouter, HashRouter } from 'react-router-dom';
 import { logGa } from './utils/log';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div>
-      <HashRouter basename="/">
+      <HashRouter>
         <BaseLayout />
       </HashRouter>
     </div>
